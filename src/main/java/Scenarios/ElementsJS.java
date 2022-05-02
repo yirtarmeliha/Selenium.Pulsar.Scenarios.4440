@@ -418,6 +418,23 @@ public class ElementsJS {
         }
     }
 
+    public static void pointFruitMenuAPPLEGREEN1kg() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        js.executeScript(" $(\"span:contains('APPLE GREEN 1kg')\").parent().click()");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+
+
+
 
 
 
@@ -540,6 +557,21 @@ public class ElementsJS {
             ex.printStackTrace();
         }
     }
+
+    public static void k_MainMonitor() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        js.executeScript(" $(\"span:contains('k')\").filter(function(){ return $(this).text() == 'k'; }).parent().click()");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
+
 
 
     public static void cigaretteOrTobacco_MainMonitor() {
