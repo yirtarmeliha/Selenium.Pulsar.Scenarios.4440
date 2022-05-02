@@ -67,13 +67,15 @@ public class Elements {
     }
 
 
-
+/*
     public static WebElement grocery () {
         return driver.findElement(new By.ByCssSelector(".btn[style='padding: 0px; font-size: 2.5vmin; background: rgb(144, 165, 228);']"));
     }
     public static WebElement cigaretteOrTobacco () {
         return driver.findElement(new By.ByCssSelector(".btn[style=\"padding: 0px; font-size: 2.5vmin;\"]"));
     }
+    */
+
     public static WebElement cigaretteOrTobaccoYes () {
         return driver.findElement(new By.ByCssSelector(".flexItem[data-ng-click=\"playKeySound(); ageConfirmed();\"]"));
     }
@@ -128,6 +130,10 @@ public class Elements {
     public static WebElement create(){
         return driver.findElement(new By.ByCssSelector(".btn[data-ng-click=\"playKeySound(); createNew()\"]"));
     }
+    public static WebElement backMicandMacth(){
+        return driver.findElement(new By.ByCssSelector(".btn[data-ui-sref=\"management.mixmatch\"]"));
+    }
+
     public static WebElement MixandMacthcurrentRecordName(){
         return driver.findElement(new By.ByCssSelector(".form-control[data-ng-model=\"currentRecord.name\"]"));
     }

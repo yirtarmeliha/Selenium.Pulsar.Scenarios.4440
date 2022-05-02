@@ -137,6 +137,24 @@ public class ElementsJS {
 
     }
 
+
+    public static void pointVegMenuBeansBroad1kg() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        js.executeScript("$(\"span:contains('Beans Broad 1kg')\").parent().click()\n");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+
+    }
+
+
+
     public static void pointVegMenuAUBERGINETURKISH() {
         try {
             Thread.sleep(2000);
@@ -516,6 +534,35 @@ public class ElementsJS {
             ex.printStackTrace();
         }
         js.executeScript(" $(\"span:contains('a')\").filter(function(){ return $(this).text() == 'a'; }).parent().click()");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+
+    public static void cigaretteOrTobacco_MainMonitor() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        js.executeScript(" $(\"span:contains('Cigarette')\").parent().click()");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    public static void grocery_MainMonitor() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        js.executeScript(" $(\"span:contains('Grocery')\").parent().click()");
         try {
             Thread.sleep(1000);
         } catch (InterruptedException ex) {
