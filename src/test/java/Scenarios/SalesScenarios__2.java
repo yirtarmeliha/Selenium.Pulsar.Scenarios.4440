@@ -126,8 +126,6 @@ public class SalesScenarios__2 extends OpenPage{
         }
 
 
-//ekledi ve sildi
-
 
 
         Elements.create().click();
@@ -180,7 +178,6 @@ public class SalesScenarios__2 extends OpenPage{
 
         Elements.SAVEmm().click();
 
-// fiyat tutmadığı için eklemedi
 
 
 

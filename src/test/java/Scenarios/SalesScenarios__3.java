@@ -246,5 +246,6 @@ public class SalesScenarios__3 extends OpenPage {
 
         Elements.Cscreen().click();
 
+
     }
 }

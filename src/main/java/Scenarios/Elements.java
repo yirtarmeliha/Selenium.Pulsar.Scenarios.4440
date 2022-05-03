@@ -150,10 +150,22 @@ public class Elements {
     public static WebElement MixandMacthSubmenuProduct(){
         return driver.findElement(new By.ByCssSelector(".form-control[data-ng-model=\"mmctrl.name\"]"));
     }
+    public static WebElement MixandMacthSTARTDATE(){
+        return driver.findElement(new By.ByCssSelector(".form-control[data-ng-model=\"currentRecord.startDate\"]"));
+    }
+    public static WebElement MixandMacthENDDATE(){
+        return driver.findElement(new By.ByCssSelector(".form-control[data-ng-model=\"currentRecord.endDate\"]"));
+    }
+
+
+
 
     public static WebElement MixandMacthSubmenuProductENTER(){
         return driver.findElement(new By.ByCssSelector(".ng-scope[data-ng-mouseenter=\"setActive($index)\"]"));
     }
+
+
+
 
     public static WebElement SAVEmm(){
         return driver.findElement(new By.ByCssSelector(".btn[data-ng-disabled=\"mmForm.$invalid || errorMessage || bsTableControlProductWithCampaign.options.data.length == 0\"]"));

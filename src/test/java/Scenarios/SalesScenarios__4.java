@@ -340,15 +340,11 @@ public class SalesScenarios__4 extends OpenPage {
             e.printStackTrace();
         }
 
+
         Elements.Cscreen().click();
 
 
-
-
-
     }
-
-
 
 
 }

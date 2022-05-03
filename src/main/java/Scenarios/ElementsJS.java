@@ -214,6 +214,29 @@ public class ElementsJS {
 
 
 
+    public static void pointVegMenuTOMATOBOX() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        js.executeScript(" $(\"span:contains('TOMATO BOX')\").parent().click()");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+
+
+
+
+
+
+
+
+
     //.FruitMenu
     public static void pointFruitMenu(){
         try {
@@ -606,5 +629,3 @@ public class ElementsJS {
 
 
 }
-// $("span:contains('LEMON')").parent().click()
-// $("span:contains('a')").filter(function(){ return $(this).text() == 'a'; }).parent().click()
