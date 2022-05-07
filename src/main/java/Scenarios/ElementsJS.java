@@ -49,6 +49,22 @@ public class ElementsJS {
     }
 
 
+    public static void pointVegMenuSPINACH(){
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        js.executeScript(" $(\"span:contains('SPINACH')\").parent().click()\n\n");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+
+
     public static void pointVegMenuARTICHOKE() {
         try {
             Thread.sleep(2000);
