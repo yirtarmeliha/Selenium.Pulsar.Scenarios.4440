@@ -80,6 +80,22 @@ public class ElementsJS {
     }
 
 
+    public static void pointVegMenuCAPSLONGRED() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        js.executeScript("$(\"span:contains('CAPS LONG RED')\").parent().click()");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+
+
     public static void pointVegMenuASPARAGUS() {
         try {
             Thread.sleep(2000);
@@ -214,19 +230,6 @@ public class ElementsJS {
         }
     }
 
-    public static void pointVegMenuCAPSLONGRED() {
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException ex) {
-            ex.printStackTrace();
-        }
-        js.executeScript("$(\"span:contains('CAPS LONG RED')\").parent().click()\n");
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException ex) {
-            ex.printStackTrace();
-        }
-    }
 
 
 
@@ -596,6 +599,53 @@ public class ElementsJS {
             ex.printStackTrace();
         }
     }
+
+
+    public static void b_MainMonitor() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        js.executeScript(" $(\"span:contains('b')\").filter(function(){ return $(this).text() == 'b'; }).parent().click()");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+
+    public static void q_MainMonitor() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        js.executeScript(" $(\"span:contains('q')\").filter(function(){ return $(this).text() == 'q'; }).parent().click()");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+
+    public static void j_MainMonitor() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        js.executeScript(" $(\"span:contains('j')\").filter(function(){ return $(this).text() == 'j'; }).parent().click()");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+
 
     public static void k_MainMonitor() {
         try {
