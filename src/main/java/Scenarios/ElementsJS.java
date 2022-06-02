@@ -474,6 +474,21 @@ public class ElementsJS {
         }
     }
 
+    public static void pointFruitMenuClementineBox2kg() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        js.executeScript(" $(\"span:contains('Clementine Box 2kg')\").parent().click()");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+
 
 
 
